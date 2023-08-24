@@ -10,7 +10,7 @@ signal entity_added(entity:PandoraEntity)
 
 
 var _context_manager:PandoraContextManager
-var _storage:PandoraJsonDataStorage
+var _storage:PandoraDataStorage
 var _id_generator:PandoraIdGenerator
 var _entity_backend:PandoraEntityBackend
 
