@@ -19,7 +19,7 @@ var _loaded = false
 
 	
 func _enter_tree() -> void:
-	self._storage = PandoraJsonDataStorage.new("res://")
+	self._storage = PandoraUncompressedJsonDataStorage.new("res://")
 	self._context_manager = PandoraContextManager.new()
 	self._id_generator = PandoraIdGenerator.new()
 	self._entity_backend = PandoraEntityBackend.new(_id_generator)
